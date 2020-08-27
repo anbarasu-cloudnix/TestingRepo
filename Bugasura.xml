@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="Custom_Flows">
+		<classes>
+			<class name="core.tests.Scenarios_OnboardingPage" />
+			<class name="core.tests.Scenarios_SignUPPage" />
+			<class name="core.tests.Scenario_ResetPasswordPage" />
+			<class name="core.tests.Scenarios_LoginPage" />
+			<class name="core.tests.Scenarios_LaunchAppToTest" />
+			<class name="core.tests.Scenarios_BugasuraOverlayicon" />
+			<class name="core.tests.Scenario_ThreeDotMenuFeedback" />
+			<class name="core.tests.Scenarios_viewReports" />
+			<class name="core.tests.Scenarios_RemoveApp" />
+
+		</classes>
+	</test>
+</suite>

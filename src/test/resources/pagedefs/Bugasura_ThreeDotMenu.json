@@ -1,0 +1,56 @@
+{
+	"addNewApp": {
+		"ANDROID": "id=show_device_apps_center"
+	},
+	"sKip": {
+		"ANDROID": "id=btnSkip"
+	},
+	"LoginButton": {
+		"ANDROID": "id=login_option"
+	},
+	"Login_email": {
+		"ANDROID": "id=email_sign_in"
+	},
+	"login_Password": {
+		"ANDROID": "id=password_sign_in"
+	},
+	"Login_LoginButton": {
+		"ANDROID": "id=activity_login_signin_button"
+	},
+	"selectOnApp": {
+		"ANDROID": "xpath=//*[@class='android.widget.RelativeLayout']"
+	},
+	"showAppList": {
+		"ANDROID": "id=show_device_apps"
+	},
+	"appToTestPage": {
+		"ANDROID": "xpath=//*[@text='App to Test']"
+	},
+	"justOnceButton": {
+		"ANDROID": "xpath=//*[@text='JUST ONCE']"
+	},
+	"ClickOnThreeDot": {
+		"ANDROID": "xpath=//*[@content-desc='More options']"
+	},
+	"Feedback": {
+		"ANDROID": "xpath=//*[@text='Feedback']"
+	},
+	"startTesting": {
+		"ANDROID": "id=status_text"
+	},
+	"removeAppButton": {
+		"ANDROID": "xpath=//*[@id='delete_app']"
+	},
+	"removeApp": {
+		"ANDROID": "id=title"
+	},
+	"composeMail": {
+		"ANDROID": "xpath=//*[@text='Compose']"
+	},
+	"email_Login": {
+		"ANDROID": "xpath=//*[@text='Email Login']"
+	},
+	"enableApp":{
+		"ANDROID":"xpath=//*[@class='android.widget.Switch']|//*[@resource-id='com.android.settings:id/switch_widget']"
+	}
+}

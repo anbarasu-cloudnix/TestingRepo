@@ -1,0 +1,21 @@
+{
+"swipeButton": {
+	"ANDROID": "id=btnNext"
+},
+"onBoardingtxt":{
+	"ANDROID": "id=welcome_text"
+},
+"signUp":{
+	"ANDROID": "id=save_report_pass_or_suspect_text"
+},
+"loginButton":{
+		"ANDROID": "id=login_option"
+},
+"email_Login":{
+		"ANDROID":"xpath=//*[@text='Email Login']"
+},
+"VerifyLoginPage":{
+		"ANDROID": "xpath=//*[@text='Login with your Email ID']"
+}
+		
+}

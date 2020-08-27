@@ -1,0 +1,146 @@
+{	
+	"sKip": {
+		"ANDROID": "id=btnSkip"
+		},
+	"LoginButton":{
+		"ANDROID": "id=login_option"
+	},
+	"VerifyLoginPage":{
+		"ANDROID": "xpath=//*[@text='Login with your Email ID']"
+	},
+	"Login_email":{
+		"ANDROID":"id=email_sign_in"
+	},
+	"login_Password":{
+		"ANDROID":"id=password_sign_in"
+	},
+	"Login_LoginButton":{
+		"ANDROID":"xpath=//*[@class='android.widget.Button' or @id='activity_login_signin_button']"
+	},
+	"Login_Error_txt":{
+		"ANDROID":"xpath=//*[@text='Please enter a valid email address']"
+	},
+	"Login_CreateAccountLink":{
+		"ANDROID":"id=activity_signup_btn"
+	},
+	"txt_CreateAccountLink":{
+		"ANDROID":"xpath=//*[@text='Create an Account' and @class='android.widget.TextView']"
+	},
+	"Login_ForgotPasswordLink":{
+		"ANDROID":"id=activity_reset_btn"
+	},
+	"txt_ResetPasword":{
+		"ANDROID":"xpath=//*[@text='Reset Password' and @class='android.widget.TextView']"
+	},
+	"passErrortxt":{
+		"ANDROID":"xpath=//*[@text='Too short! enter min 5 characters']"
+	},
+	"appToTestPage":{
+		"ANDROID":"xpath=//*[@text='App to Test']"
+	},
+	"email_Login":{
+		"ANDROID":"xpath=//*[@text='Email Login']"
+	},
+	
+	"launchApp_Bugasura_On": {
+		"ANDROID": "xpath=//*[@text='BUGasura']"
+	},
+	"launchApp_Bugasura_permission":{
+		"ANDROID": "xpath=//*[@text='OFF' or @id='switch_widget'] | //*[contains(@text,'Permit')]/../..//android.widget.Switch" 
+	},
+	"skipButton":{
+		"ANDROID": "id=btnSkip"
+		},
+	"loginButton":{
+		"ANDROID": "id=login_option"
+	},
+	"login_Email":{
+		"ANDROID":"id=email_sign_in"
+	},
+	"permission1":{
+		"ANDROID":"xpath=//*[@text='Start now' or @text='Start Now' or @text='START NOW' ]"
+	},
+	"permission2":{
+		"ANDROID":"id=button2"
+	},
+	"addNewApp":{
+		"ANDROID":"id=show_device_apps_center"
+	},
+	"search":{
+		"ANDROID":"id=search_button"
+	},
+	"searchApp":{
+		"ANDROID":"id=search_src_text"
+	},
+	"selectApp":{
+		"ANDROID":"id=app_name"
+	},
+	"txtAppname":{
+		"ANDROID":"xpath=//android.widget.RelativeLayout/android.widget.Button[@id='status_text']/preceding-sibling::android.widget.TextView[@id='app_name']"
+	},
+	"selectedAppName":{
+		"ANDROID":"xpath=//android.widget.RelativeLayout/android.widget.Button[@resource-id='com.appachhi.bugasura:id/status_text']/preceding-sibling::android.widget.TextView[@id='app_name']"
+	},
+	"selectOnApp":{
+		"ANDROID":"xpath=//*[@class='android.widget.RelativeLayout']"
+	},
+	"expAppText":{
+		"ANDROID":"xpath=//*[@class='android.widget.RelativeLayout']"
+	},
+	"showAppList":{
+		"ANDROID":"id=show_device_apps"
+	},
+	"startTesting":{
+		"ANDROID":"id=status_text"
+	},
+	"functionalTesting":{
+		"ANDROID":"id=function_testing"
+	},
+	"existReport":{
+		"ANDROID":"xpath=//*[@id='recycler_view_test_run_names']/*[./*[@id='testing_type_initial']][1]"
+	},
+	"createNewReportCenter":{
+		"ANDROID":"id=fab_create_new_report_duplicate"
+	},
+	"createNewReportCorner":{
+		"ANDROID":"id=fab_create_new_report"
+	},
+	"enter_New_Report_txt":{
+		"ANDROID":"id=et_new_report"
+	},
+	"start_Button":{
+		"ANDROID":"id=btn_start_new_report"
+	},
+	"Dialog_StartNow":{
+		"ANDROID":"xpath=//android.widget.Button[@resource-id='android:id/button1']"
+	},
+	"Accessability_Bugasura":{
+		"ANDROID":"xpath=//android.widget.TextView[@text='BUGasura' or @text='bugasura' or @text='Bugasura']"
+	},
+	"enableApp":{
+		"ANDROID":"xpath=//*[@class='android.widget.Switch']|//*[@resource-id='com.android.settings:id/switch_widget']|//android.widget.LinearLayout/android.view.View"
+	},
+	"permitBugasura":{
+		"ANDROID":"xpath=//android.widget.Switch[@resource-id='android:id/switchWidget']"
+	},
+	"addToThis":{
+		"ANDROID":"id=card_item"
+	},
+	"bugasuraIcon":{
+		"ANDROID":"xpath=//*[@content-desc='Bugasura_overlay']"
+	},
+	"allowPermission":{
+		"ANDROID":"id=permission_allow_button"
+	},
+	"getAppText":{
+		"ANDROID":"xpath=//android.widget.RelativeLayout[2]/*[@id='app_name']"
+	},
+	"app_name":{
+	"ANDROID": "id=app_name"
+	},
+	"selectedApp_name":{
+		"ANDROID":"xpath=//*[@id='status_text']/preceding-sibling::android.widget.TextView[@id='app_name']"
+	}
+	
+	
+}

@@ -1,0 +1,62 @@
+{
+	"emailId": {
+		"ANDROID": "id=activity_sign_up_et_email"
+	},
+	"password": {
+		"ANDROID": "id=activity_sign_up_et_password"
+	},
+	"createButton": {
+		"ANDROID": "id=activity_login_signup_button"
+	},
+	"errorTxt": {
+		"ANDROID": "id=textinput_error"
+	},
+	"passErrortxt": {
+		"ANDROID": "xpath=//*[@text='Too short! enter min 5 characters']"
+	},
+	"txtCreateAcc": {
+		"ANDROID": "xpath=//*[@text='Signup with your Email ID']"
+	},
+	"appToTestPage": {
+		"ANDROID": "xpath=//*[@text='App to Test']"
+	},
+	"loginLink": {
+		"ANDROID": "id=activity_signup_btn"
+	},
+	"forgotPass": {
+		"ANDROID": "id=activity_reset_btn"
+	},
+	"launchApp_Bugasura_On": {
+		"ANDROID": "xpath=//*[@text='BUGasura']"
+	},
+	"launchApp_Bugasura_permission": {
+		"ANDROID": "xpath=//*[@text='OFF' or @id='switch_widget'] | //*[contains(@text,'Permit')]/../..//android.widget.Switch"
+	},
+	"Dialog_StartNow": {
+		"ANDROID": "xpath=//android.widget.Button[@resource-id='android:id/button1']"
+	},
+	"Accessability_Bugasura": {
+		"ANDROID": "xpath=//android.widget.TextView[@text='BUGasura' or @text='bugasura']"
+	},
+	"enableApp": {
+		"ANDROID": "xpath=//*[@class='android.widget.Switch']|//*[@resource-id='com.android.settings:id/switch_widget']"
+	},
+	"permitBugasura": {
+		"ANDROID": "xpath=//android.widget.Switch[@resource-id='android:id/switchWidget']"
+	},
+	"ResetPassword_signup_Page": {
+		"ANDROID": "xpath=//*[@text='Reset Password' and @class='android.widget.TextView']"
+	},
+	"loginLink_Page": {
+		"ANDROID": "xpath=//*[@text='Login' and @class='android.widget.TextView']"
+	},
+	"skipButton": {
+		"ANDROID": "id=btnSkip"
+	},
+	"signUp": {
+		"ANDROID": "id=activity_signup_btn"
+	},
+	"email_Signup": {
+		"ANDROID": "id=activity_email_login_signin_button"
+	}
+}

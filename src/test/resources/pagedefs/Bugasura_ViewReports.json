@@ -1,0 +1,63 @@
+{	
+	"selectOnApp": {
+		"ANDROID": "xpath=//*[@class='android.widget.RelativeLayout']"
+	},
+	"view_icon": {
+		"ANDROID": "id=view_app_reports_fab"
+	},
+	"reports_text": {
+		"ANDROID": "xpath=//*[@text='Reports']"
+	},
+	"reports_list": {
+		"ANDROID": "id=view_reports"
+	},
+	"report_view": {
+		"ANDROID": "id=card_item"
+	},
+	"app_name": {
+		"ANDROID": "id=app_name"
+	},
+	"report_name": {
+		"ANDROID": "id=testing_type_initial"
+	},
+	"view_report": {
+		"ANDROID": "id=view_reports"
+	},
+	"testFlow": {
+		"ANDROID": "id=txt_test_flow_count"
+	},
+	"pass": {
+		"ANDROID": "id=txt_test_count_pass"
+	},
+	"fail": {
+		"ANDROID": "id=txt_test_count_fail"
+	},
+	"suspect": {
+		"ANDROID": "id=txt_test_count_suspect"
+	},
+	"btnViewDetailedReport": {
+		"ANDROID": "id=btn_view_detail_report"
+	},
+	"failure": {
+		"ANDROID": "xpath=//*[@content-desc='p Failure']|//*[@text='p Failure']/android.view.View"
+	},
+	"failure1":{
+		"ANDROID":"xpath=//*[@text='p Failure']"
+	},
+	"success": {
+		"ANDROID": "xpath=//*[@content-desc='F Success']|//*[@text='F Success']/android.view.View"
+	},
+	"success1":{
+		"ANDROID":"xpath=//*[@text='F Success']"
+	},
+	"testflowlist": {
+		"ANDROID": "xpath=//*[@content-desc='n']/*[@content-desc='n']"
+	},
+	"testFlows": {
+		"ANDROID": "xpath=//*[ @text='n' or @content-desc='n']/android.view.View"
+	},
+	"reportSummary": {
+		"ANDROID": "xpath=//*[@class='android.webkit.WebView']"
+	}
+	
+}
